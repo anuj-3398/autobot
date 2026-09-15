@@ -67,6 +67,7 @@ export default function Home() {
   return (
     <main className="page-shell">
       <section className="intro" aria-labelledby="page-title">
+        <p className="hello-avail">👋 Hello Avail</p>
         <p className="eyebrow">AI subscription guide</p>
         <h1 id="page-title">Hello, world.</h1>
         <p className="lede">A simple USD snapshot of ChatGPT, Claude, Gemini, and Cursor plans.</p>

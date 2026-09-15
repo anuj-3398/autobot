@@ -3,6 +3,7 @@
 body { min-width: 320px; min-height: 100vh; margin: 0; background: radial-gradient(circle at 50% -20%, #e5f0dc 0, transparent 42rem), #f7f7f2; }
 .page-shell { width: min(100% - 40px, 1030px); margin: 0 auto; padding: clamp(56px, 11vw, 120px) 0 36px; }
 .intro { max-width: 620px; margin-bottom: 48px; }.eyebrow, .provider-label { margin: 0; color: #687369; font-family: monospace; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+.hello-avail { display: inline-block; margin: 0 0 14px; padding: 6px 14px; border: 1px solid rgba(24, 32, 28, .12); border-radius: 99px; background: #fff; color: #18201c; font-size: .82rem; font-weight: 600; }
 h1 { margin: 12px 0 10px; font-size: clamp(3.4rem, 10vw, 6.5rem); line-height: .95; letter-spacing: -.075em; }.lede { margin: 0; color: #506056; font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.6; }
 .porto-status { display: inline-block; margin: 22px 0 0; padding: 8px 12px; border: 1px solid rgba(24, 32, 28, .12); border-radius: 99px; color: #506056; font: .78rem monospace; }.porto-status span { color: #2a8a4a; }
 .pricing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }.provider-card { padding: clamp(24px, 4vw, 36px); border: 1px solid rgba(24, 32, 28, .1); border-radius: 22px; box-shadow: 0 16px 45px rgba(31, 48, 35, .07); }.chatgpt { background: #e4efdf; }.claude { background: #f4e4d7; }.gemini { background: #dce8f5; }.cursor { background: #e4e0f0; }
